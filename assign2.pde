@@ -245,7 +245,7 @@ void draw() {
         frame = frame +1;
           switch(walk){
             case GO_DOWN:
-            walkY= walkY + 80/15;
+            walkY= walkY + round(80/15);
             break;
             case GO_LEFT:
             walkX = walkX - 80/15;
