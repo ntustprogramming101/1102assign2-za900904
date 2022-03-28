@@ -248,10 +248,10 @@ void draw() {
             walkY= walkY + round(80/15);
             break;
             case GO_LEFT:
-            walkX = walkX - 80/15;
+            walkX = walkX - round(80/15);
             break;
             case GO_RIGHT:
-            walkX = walkX + 80/15;
+            walkX = walkX + round(80/15);
             break;
           }
          }
