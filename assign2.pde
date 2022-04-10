@@ -163,6 +163,7 @@ void draw() {
           life2X = -80;
           walkX = 0;
           walkY = 0;
+          frame = 15;
           lifeAmount = LIFE1;
              }
 
@@ -179,6 +180,7 @@ void draw() {
              soldierY == groundhogY + walkY){
           walkX = 0;
           walkY = 0;
+          frame = 15;
           life3X = -80;
           lifeAmount = LIFE2;
           }
@@ -205,6 +207,7 @@ void draw() {
           life2X = -80;
           walkX = 0;
           walkY = 0;
+          frame = 15;
           lifeAmount = LIFE1; // 2 life to 1 life
           }
           break; 
